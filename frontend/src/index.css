@@ -200,3 +200,20 @@ button, a {
 .t360-review-demo{margin-top:auto;align-self:flex-start;padding:5px 7px;border-radius:3px;background:#fff5df;color:#93691f;font-size:8px;font-weight:850;letter-spacing:.8px}
 @media(max-width:900px){.t360-review-grid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:560px){.t360-review-grid{grid-template-columns:1fr}.t360-review-card{min-height:0}}
+
+
+/* ALPHA HOME TUTORS — light green opening hero theme */
+.t360-hero{
+  background:linear-gradient(115deg,#eaf7ee 0%,#f3faf5 54%,#e2f2e7 100%);
+}
+.t360-hero-copy h1 em{color:#39875b}
+.t360-rating{color:#557765}
+.t360-rating span{color:#d5a64a}
+.t360-primary,.t360-submit{background:#438e62}
+.t360-primary:hover,.t360-submit:hover{background:#31734d}
+.t360-call{color:#315d43}
+.t360-chat{border-color:#d8eadc}
+.t360-chat>span{background:#e4f4e8;color:#39875b}
+.t360-form-heading>span{color:#438e62}
+.t360-form input:focus,.t360-form select:focus,.t360-form textarea:focus{border-color:#83b995;box-shadow:0 0 0 3px #e8f5eb}
+.t360-subjects button.active{background:#eaf6ed;border-color:#8fbea0;color:#347b50}
