@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { api } from '../api/client'
-import { ArrowRight, BookOpen, GraduationCap, Phone, MessageCircle, ShieldCheck, UserCheck, Monitor, MapPin, Clock, CheckCircle2, Send, ChevronDown, ClipboardList, CalendarCheck, Star, Languages, Home as HomeIcon, Target, Users, Sparkles, Quote, BadgeCheck, WandSparkles, PlayCircle, ChevronRight } from 'lucide-react'
+import { ArrowRight, ArrowUpRight, BookOpen, GraduationCap, Phone, MessageCircle, ShieldCheck, UserCheck, Monitor, MapPin, Clock, CheckCircle2, Send, ChevronDown, ClipboardList, CalendarCheck, Star, Languages, Home as HomeIcon, Target, Users, Sparkles, Quote, BadgeCheck, WandSparkles, PlayCircle, ChevronRight } from 'lucide-react'
 
 const subjects = ['Mathematics','Science','English','Physics','Chemistry','Biology','Social Science','Hindi','Commerce','Computer Science']
 const classes = ['Nursery – UKG','Class 1–5','Class 6–8','Class 9–10','Class 11–12']
