@@ -33,7 +33,7 @@ const faqs=[
  ['Do you provide home and online tuition?','You can choose home tuition, online tuition or either option in the enquiry form.'],
  ['Can I request a demo class?','Yes. Mention your demo request in the form and the team will discuss the available arrangements.'],
  ['How are tuition fees decided?','Fees depend on class, subject, location, tutor requirements and schedule. The applicable details can be discussed after your enquiry.'],
- ['Which locations do you serve?','Enquiries are welcome from Aligarh, Hathras, Mathura, Vrindavan and nearby locations. Exact availability is confirmed individually.']
+ ['Which locations do you serve?','We currently accept tuition enquiries from Aligarh, Hathras and Agra.']
 ]
 const testimonials=[
  ['Priya Sharma','Mathura','The team understood our tuition requirements and explained the available options clearly.','PS'],
@@ -41,7 +41,7 @@ const testimonials=[
  ['Neha Singh','Hathras','We were able to share the class, subjects and preferred timing in one place.','NS'],
  ['Rahul Agarwal','Vrindavan','The home and online tuition options are clearly explained. It made comparing choices easier.','RA']
 ]
-const areas=['Aligarh','Hathras','Mathura','Vrindavan','Nearby areas around Aligarh','Other nearby locations']
+const areas=['Aligarh','Hathras','Agra']
 const boardCards=[['CBSE','NCERT-aligned support','cbse'],['UP Board','State curriculum support','up'],['ICSE','Concepts & written practice','icse'],['ISC','Senior secondary subjects','isc']]
 const learningMoments=[['01','Understand','Start with the student’s class, subjects and learning goals.'],['02','Match','Discuss suitable tutor options and availability with our team.'],['03','Begin','Plan the next step, including a demo discussion if needed.']]
 export default function Home(){
