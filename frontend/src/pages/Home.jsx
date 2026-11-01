@@ -64,7 +64,7 @@ export default function Home(){
  return <main className="t360-page">
   <section className="t360-hero" id="home"><div className="t360-container t360-hero-grid">
    <div className="t360-hero-copy"><div className="t360-rating"><span>★★★★★</span> PERSONAL ATTENTION FOR EVERY STUDENT</div><h1>Find the <em>right home tutor</em> for every class & subject</h1><p>Looking for a trusted home tutor? ALPHA HOME TUTORS helps parents explore personalised home and online tuition for their child.</p>
-    <div className="t360-hero-actions"><a href="#enquiry" className="t360-primary">Book a Demo Class <ArrowRight size={17}/></a><a href="tel:7505567334" className="t360-call"><Phone size={17}/> +91 7505567334</a></div>
+    <div className="t360-hero-actions"><a href="#enquiry" className="t360-primary">Book a Demo Class <ArrowRight size={17}/></a><a href="/boards" className="t360-call"><BookOpen size={17}/> Explore by Board & Subject</a><a href="tel:7505567334" className="t360-call"><Phone size={17}/> +91 7505567334</a></div>
     <div className="t360-chat"><span><MessageCircle size={21}/></span><div><b>Need help finding a tutor?</b><small>Talk to our team and share your requirement.</small></div><a href="https://wa.me/917505567334?text=Hello%20ALPHA%20HOME%20TUTORS%2C%20I%20need%20a%20home%20tutor." target="_blank" rel="noreferrer">WhatsApp <ArrowRight size={15}/></a></div>
    </div>
    {enquiryForm(true)}
