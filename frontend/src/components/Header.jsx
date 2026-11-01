@@ -5,7 +5,7 @@ import { Menu, X, GraduationCap, Phone, ChevronDown } from 'lucide-react'
 const phone='7505567334'
 export default function Header(){
  const [open,setOpen]=useState(false)
- const links=[['Home','#home'],['Categories','#classes'],['Book a Demo Class','#enquiry'],['Become a Tutor','#about'],['Contact Us','#enquiry']]
+ const links=[['Home','#home'],['Boards & Subjects','/boards'],['Categories','#classes'],['Book a Demo Class','#enquiry'],['Become a Tutor','#about'],['Contact Us','#enquiry']]
  return <header className="alpha-header">
   <div className="alpha-top"><div className="alpha-container alpha-top-inner"><span>Home tuition support across Aligarh, Hathras, Mathura & nearby areas</span><a href={`tel:${phone}`}><Phone size={14}/> +91 {phone}</a></div></div>
   <div className="alpha-container alpha-nav">
