@@ -1,18 +1,18 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
-import { Menu, X, GraduationCap, Phone, ChevronDown } from 'lucide-react'
+import { Menu, X, Phone, ArrowUpRight, GraduationCap, BookOpen } from 'lucide-react'
 
 const phone='7505567334'
 export default function Header(){
  const [open,setOpen]=useState(false)
- const links=[['Home','#home'],['Boards & Subjects','/boards'],['Categories','#classes'],['Book a Demo Class','#enquiry'],['Become a Tutor','#about'],['Contact Us','#enquiry']]
+ const links=[['Home','/#home'],['Boards & Subjects','/boards'],['Classes','#classes'],['About','#about'],['Contact','#enquiry']]
  return <header className="alpha-header">
-  <div className="alpha-top"><div className="alpha-container alpha-top-inner"><span>Home tuition support across Aligarh, Hathras, Mathura & nearby areas</span><a href={`tel:${phone}`}><Phone size={14}/> +91 {phone}</a></div></div>
+  <div className="alpha-top"><div className="alpha-container alpha-top-inner"><span><i className="alpha-top-dot"/> Personalised home & online tuition · Aligarh and nearby cities</span><a href={`tel:${phone}`}><Phone size={13}/> +91 {phone}</a></div></div>
   <div className="alpha-container alpha-nav">
-   <Link to="/" className="alpha-brand" onClick={()=>setOpen(false)}><span className="brand-mark"><GraduationCap size={27}/></span><span><b>ALPHA</b><small>HOME TUTORS</small></span></Link>
-   <nav className={open?'alpha-links show':'alpha-links'}>{links.map(([label,href])=><a key={label} href={href} onClick={()=>setOpen(false)}>{label}</a>)}</nav>
-   <a className="alpha-nav-cta" href="#enquiry" onClick={()=>setOpen(false)}>Book a Demo Class <span>↗</span></a>
-   <button className="alpha-menu" onClick={()=>setOpen(!open)} aria-label="Toggle menu">{open?<X/>:<Menu/>}</button>
+   <Link to="/" className="alpha-brand" onClick={()=>setOpen(false)} aria-label="Alpha Home Tutors home"><span className="brand-mark"><span className="brand-mark-orbit"/><GraduationCap size={26}/></span><span><b>ALPHA</b><small>HOME TUTORS <i>•</i> ALIGARH</small></span></Link>
+   <nav className={open?'alpha-links show':'alpha-links'}>{links.map(([label,href])=>href==='/boards'?<Link key={label} to={href} onClick={()=>setOpen(false)}>{label}</Link>:<a key={label} href={href} onClick={()=>setOpen(false)}>{label}</a>)}</nav>
+   <a className="alpha-nav-cta" href="/#enquiry" onClick={()=>setOpen(false)}>Find a tutor <ArrowUpRight size={16}/></a>
+   <button className="alpha-menu" onClick={()=>setOpen(!open)} aria-label={open?'Close navigation':'Open navigation'}>{open?<X/>:<Menu/>}</button>
   </div>
  </header>
 }
