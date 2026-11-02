@@ -487,3 +487,66 @@ button, a {
 /* Site-wide readability: enlarge all website content consistently */
 html { font-size: 108%; }
 body { zoom: 1.06; }
+
+
+/* Improve readability of supporting text, subjects, class labels and cards */
+.alpha-home-premium .t360-section p,
+.alpha-home-premium .alpha-subject-layout > div:first-child > p,
+.alpha-home-premium .alpha-support-poster-card p,
+.alpha-home-premium .t360-about-copy p,
+.alpha-home-premium .t360-enquiry-copy > p,
+.alpha-home-premium .t360-faq > div > p,
+.alpha-home-premium .t360-cta-inner p {
+  font-size: 16px;
+  line-height: 1.8;
+}
+.alpha-home-premium .alpha-board-card > small,
+.alpha-home-premium .alpha-support-poster-card span,
+.alpha-home-premium .alpha-poster-grid span,
+.alpha-home-premium .alpha-quick-strip article small,
+.alpha-home-premium .alpha-moments article p,
+.alpha-home-premium .t360-benefit p,
+.alpha-home-premium .t360-faq-list details p {
+  font-size: 14px;
+  line-height: 1.7;
+}
+.alpha-home-premium .alpha-subject-chips button,
+.alpha-home-premium .alpha-board-link,
+.alpha-home-premium .alpha-board-foot p,
+.alpha-home-premium .alpha-board-foot a,
+.alpha-home-premium .t360-text-link,
+.alpha-home-premium .t360-kicker {
+  font-size: 13px;
+}
+.alpha-home-premium .alpha-hero-trust span,
+.alpha-home-premium .t360-chat small,
+.alpha-home-premium .t360-chat > a,
+.alpha-home-premium .alpha-visual-caption small {
+  font-size: 12px;
+}
+.alpha-home-premium .t360-section-head > p,
+.alpha-home-premium .t360-center-head > p {
+  font-size: 15px;
+  line-height: 1.75;
+}
+@media(max-width:650px) {
+  .alpha-home-premium .t360-section p,
+  .alpha-home-premium .alpha-subject-layout > div:first-child > p,
+  .alpha-home-premium .alpha-support-poster-card p,
+  .alpha-home-premium .t360-about-copy p,
+  .alpha-home-premium .t360-enquiry-copy > p,
+  .alpha-home-premium .t360-faq > div > p,
+  .alpha-home-premium .t360-cta-inner p {
+    font-size: 15px;
+  }
+  .alpha-home-premium .alpha-board-card > small,
+  .alpha-home-premium .alpha-support-poster-card span,
+  .alpha-home-premium .alpha-poster-grid span,
+  .alpha-home-premium .alpha-quick-strip article small,
+  .alpha-home-premium .alpha-moments article p,
+  .alpha-home-premium .t360-benefit p,
+  .alpha-home-premium .t360-faq-list details p {
+    font-size: 13px;
+  }
+  .alpha-home-premium .alpha-subject-chips button { font-size: 13px; }
+}
